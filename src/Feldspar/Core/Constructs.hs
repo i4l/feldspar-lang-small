@@ -53,9 +53,9 @@ import Feldspar.Core.Constructs.Bits
 --import Feldspar.Core.Constructs.Complex
 import Feldspar.Core.Constructs.Condition
 --import Feldspar.Core.Constructs.ConditionM
---import Feldspar.Core.Constructs.Conversion
+import Feldspar.Core.Constructs.Conversion
 import Feldspar.Core.Constructs.Eq
---import Feldspar.Core.Constructs.Error
+import Feldspar.Core.Constructs.Error
 --import Feldspar.Core.Constructs.FFI
 --import Feldspar.Core.Constructs.Floating
 --import Feldspar.Core.Constructs.Fractional
@@ -92,9 +92,9 @@ type FeldSymbols
     :+: (Array      :|| Type)
     :+: (BITS       :|| Type)
 --    :+: (COMPLEX    :|| Type)
---    :+: (Conversion :|| Type)
+    :+: (Conversion :|| Type)
     :+: (EQ         :|| Type)
---    :+: (Error      :|| Type)
+    :+: (Error      :|| Type)
 --    :+: (FLOATING   :|| Type)
 --    :+: (FRACTIONAL :|| Type)
 --    :+: (FUTURE     :|| Type)
